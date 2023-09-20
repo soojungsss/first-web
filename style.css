@@ -4,7 +4,7 @@
     font-family: 'Public Sans', sans-serif;
 }
 .header {
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('banner-image.jpg');
     background-position: center;
@@ -119,10 +119,14 @@ nav img {
 /* ------- Course -------- */
 
 .course{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 70px;
+    /* background-color: #edf1fd;
+    background-position: center;
+    background-size: cover;
+    position: relative;  */
 }
 h1{
     font-size: 36px;
@@ -138,17 +142,27 @@ p{
 }
 
 .row{
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
 }
 .course-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #ebf2ff;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+}
+.course-col ul{
+    margin-left: 0;
+    /* padding-left: 30px; */
+    position: center;
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    list-style: none;
 }
 h3{
     text-align: center;
